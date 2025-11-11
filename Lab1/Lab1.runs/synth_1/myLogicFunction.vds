@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Nov  5 14:48:05 2025
+# Process ID: 22864
+# Current directory: C:/Masters in Electrical Engineering/Semester 1/DAD/Labs/Lab1/Lab1.runs/synth_1
+# Command line: vivado.exe -log myLogicFunction.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source myLogicFunction.tcl
+# Log file: C:/Masters in Electrical Engineering/Semester 1/DAD/Labs/Lab1/Lab1.runs/synth_1/myLogicFunction.vds
+# Journal file: C:/Masters in Electrical Engineering/Semester 1/DAD/Labs/Lab1/Lab1.runs/synth_1\vivado.jou
+# Running On: DESKTOP-5O999U5, OS: Windows, CPU Frequency: 2712 MHz, CPU Physical cores: 6, Host memory: 16913 MB
+#-----------------------------------------------------------
+source myLogicFunction.tcl -notrace
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 455.887 ; gain = 180.188
+WARNING: [Vivado 12-9135] Ignoring repo path (C:/Users/IT C:/Masters in Electrical Engineering/Semester 1/DAD/Labs/Lab1/Lab1.runs/synth_1/LAND/AppData/Roaming/Xilinx/Vivado/2023.2/xhub/board_store/xilinx_board_store) because it contains no board files
+ERROR: [Board 49-71] The board_part definition was not found for digilentinc.com:basys3:part0:1.2. The project's board_part property was not set, but the project's part property was set to xc7a35tcpg236-1. Valid board_part values can be retrieved with the 'get_board_parts' Tcl command. Check if board.repoPaths parameter is set and the board_part is installed from the tcl app store.
+INFO: [Common 17-206] Exiting Vivado at Wed Nov  5 14:48:18 2025...
