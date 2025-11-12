@@ -13,6 +13,6 @@ Compiling package std.textio
 Compiling package ieee.std_logic_1164
 Compiling package ieee.numeric_std
 Compiling architecture behavioral of entity xil_defaultlib.full_adder [full_adder_default]
-Compiling architecture behavioral of entity xil_defaultlib.RCA [\RCA(n=4)\]
+Compiling architecture behavioral of entity xil_defaultlib.RCA [rca_default]
 Compiling architecture behavioral of entity xil_defaultlib.rca_tb
 Built simulation snapshot RCA_tb_behav

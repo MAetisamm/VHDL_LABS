@@ -4,7 +4,7 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity RCA_tb is 
 generic(
-N: integer:=4
+N: integer:=8
 );
 end RCA_tb;
 

@@ -3,8 +3,8 @@
   <File Type="PA-TCL" Name="myLogicFunction.tcl"/>
   <File Type="REPORTS-TCL" Name="myLogicFunction_reports.tcl"/>
   <File Type="RDS-RDS" Name="myLogicFunction.vds"/>
-  <File Type="RDS-UTIL" Name="TopLevel_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="TopLevel_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="RCA_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="RCA_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="myLogicFunction.dcp"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
