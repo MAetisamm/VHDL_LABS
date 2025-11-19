@@ -1,7 +1,7 @@
 Vivado Simulator v2023.2
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Serial_register_tb_behav xil_defaultlib.Serial_register_tb -log elaborate.log 
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot updown_counter_tb_behav xil_defaultlib.updown_counter_tb -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -11,6 +11,7 @@ Time Resolution for simulation is 1ps
 Compiling package std.standard
 Compiling package std.textio
 Compiling package ieee.std_logic_1164
-Compiling architecture behavioral of entity xil_defaultlib.Serial_register [serial_register_default]
-Compiling architecture behavioral of entity xil_defaultlib.serial_register_tb
-Built simulation snapshot Serial_register_tb_behav
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.up_down_counter [up_down_counter_default]
+Compiling architecture tb of entity xil_defaultlib.updown_counter_tb
+Built simulation snapshot updown_counter_tb_behav
